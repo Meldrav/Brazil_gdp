@@ -1,4 +1,5 @@
 #------------------------- Load the (Cleaned) Olist Data -------------------------# 
+library(readr)
 tmp <- read_csv("Cleaned2.csv")
 #------ See customer cities
 tmp %>%
